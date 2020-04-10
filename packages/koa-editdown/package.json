@@ -1,0 +1,29 @@
+{
+  "name": "koa-editdown",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Koa app of 📝editdown.",
+  "homepage": "https://editdown.app/",
+  "bugs": {
+    "url": "https://github.com/SyaOS/editdown/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SyaOS/editdown.git"
+  },
+  "license": "Apache-2.0",
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon --require dotenv/config ."
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "koa": "^2.11.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  }
+}

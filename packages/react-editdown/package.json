@@ -1,0 +1,40 @@
+{
+  "name": "react-editdown",
+  "version": "0.0.0",
+  "private": true,
+  "description": "React component of 📝editdown.",
+  "homepage": "https://editdown.app/",
+  "bugs": {
+    "url": "https://github.com/SyaOS/editdown/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SyaOS/editdown.git"
+  },
+  "license": "Apache-2.0",
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "main": "src/index.jsx",
+  "scripts": {
+    "build": "rollup --config",
+    "dev": "rollup --config --watch"
+  },
+  "dependencies": {
+    "use-http": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-replace": "^2.3.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.4.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^5.3.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "editdown",
+  "version": "0.0.0",
+  "private": true,
+  "description": "📝 Markdown editor for git-based static sites.",
+  "homepage": "https://editdown.app/",
+  "bugs": {
+    "url": "https://github.com/SyaOS/editdown/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SyaOS/editdown.git"
+  },
+  "license": "Apache-2.0",
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "scripts": {
+    "test": "standard"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2",
+    "standard": "^14.3.3"
+  }
+}
